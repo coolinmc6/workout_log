@@ -11,3 +11,4 @@ This is a Pinterest-clone following the tutorial by [Mackenzie Child](https://ma
 
 
 #### CM Comments
+* in HAML, the "-" is like "<%" which just evaluates the Ruby while "=" ~> "<%=" which outputs the Ruby
