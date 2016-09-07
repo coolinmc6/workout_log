@@ -15,3 +15,40 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+html {
+	height: 100%;
+}
+
+body {
+
+
+
+background: #1e3c72; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+                
+}
+
+#index_workouts {
+	h2 {
+		margin-bottom: 0;
+		font-weight: 100;
+		a {
+			color: white;
+		}
+	}
+	h3 {
+		margin: 0;
+		font-size: 18px;
+		color: #ae6; 
+		span {
+			color: red;
+		}
+	}
+
+}
+.navbar-header {
+	text-transform: uppercase;  
+}

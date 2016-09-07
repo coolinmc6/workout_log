@@ -7,8 +7,9 @@ This is a Pinterest-clone following the tutorial by [Mackenzie Child](https://ma
 
 
 ####Things to look up later
-
-
+* [UI Gradients](http://uigradients.com/#)
+* [CSS3 Generator](http://css3generator.com/)
+* Is there a good color palette picker out there?
 
 #### CM Comments
 * in HAML, the "-" is like "<%" which just evaluates the Ruby while "=" ~> "<%=" which outputs the Ruby
