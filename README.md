@@ -12,3 +12,6 @@ This is a Pinterest-clone following the tutorial by [Mackenzie Child](https://ma
 
 #### CM Comments
 * in HAML, the "-" is like "<%" which just evaluates the Ruby while "=" ~> "<%=" which outputs the Ruby
+* When creating the exercise partial, we originally named it "_exercises.html.haml" and despite referencing 
+"= render @workout.exercises" in the workouts/show.html.haml file, the app couldn't find it.  We changed the name
+to 'exercise' singular and that fixed problem
