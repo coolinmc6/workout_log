@@ -1,4 +1,5 @@
 / index.html.haml
 - @workouts.each do |workout|
-	%h2= link_to workout.date, workout
+	- d = workout.date
+	%h2= link_to d.strftime("%a %b %d, %Y at %H:%M:%S"), workout
 	%h3= workout.workout
